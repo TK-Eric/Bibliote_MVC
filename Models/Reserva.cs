@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;           // Atributos de validação (Key, Required, StringLength)
 using System.ComponentModel.DataAnnotations.Schema;    // Atributos de mapeamento do banco (ForeignKey, Column, etc.)
 
-namespace bibliotec.Models
+namespace Bibliotec_MVC.Models
 {
     // Modelo que representa uma Reserva/Empréstimo de livro no banco de dados
     public class Reserva

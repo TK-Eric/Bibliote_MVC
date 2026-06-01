@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace bibliotec.Models
+namespace Bibliotec_MVC.Models
 {
     public class LivroCategoria
     {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace bibliotec.Models
+namespace Bibliotec_MVC.Models
 {
     // Modelo que representa um Usuário do sistema (pode ser Aluno ou Bibliotecária)
     public class Usuario

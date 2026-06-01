@@ -1,9 +1,9 @@
-using bibliotec.Contexts;
-using bibliotec.Models;
-using bibliotec.Interfaces;
+using Bibliotec_MVC.Contexts;
+using Bibliotec_MVC.Models;
+using Bibliotec_MVC.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace bibliotec.Repostories
+namespace Bibliotec_MVC.Repostories
 {
     public class UsuarioRepository : IUsuarioRepository
     {

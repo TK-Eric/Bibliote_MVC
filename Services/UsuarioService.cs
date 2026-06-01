@@ -1,7 +1,7 @@
-using bibliotec.Models;
-using bibliotec.Interfaces;
+using Bibliotec_MVC.Models;
+using Bibliotec_MVC.Interfaces;
 
-namespace bibliotec.Services
+namespace Bibliotec_MVC.Services
 {
     public class UsuarioService : IUsuarioService   
     {

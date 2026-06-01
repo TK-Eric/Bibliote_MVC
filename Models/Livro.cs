@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace bibliotec.Models
+namespace Bibliotec_MVC.Models
 {
     // Modelo que representa um Livro no banco de dados (mapeado como tabela pelo EF Core)
     public class Livro
@@ -29,7 +29,7 @@ namespace bibliotec.Models
         [StringLength(50)]
         public string Editora { get; set; } = null!;
 
-        public string? Imagem; // Campo nullable para armazenar caminho/URL da capa do livro
+        public string? Imagem { get; set; } // Campo nullable para armazenar caminho/URL da capa do livro
                                // ⚠️ Atenção: está declarado como field, não como property (sem get/set)
                                //    Isso pode causar problemas com o EF Core — considere adicionar { get; set; }
 

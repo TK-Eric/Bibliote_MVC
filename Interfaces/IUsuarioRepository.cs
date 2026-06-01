@@ -1,6 +1,6 @@
-using bibliotec.Models;
+using Bibliotec_MVC.Models;
 
-namespace bibliotec.Interfaces
+namespace Bibliotec_MVC.Interfaces
 {
     public interface IUsuarioRepository
     {

@@ -1,7 +1,7 @@
-using bibliotec.Models;
+using Bibliotec_MVC.Models;
 using Microsoft.EntityFrameworkCore; // Importa o EF Core (DbContext, DbSet, ModelBuilder, etc.)
 
-namespace bibliotec.Contexts
+namespace Bibliotec_MVC.Contexts
 {
     // DbContext é a classe central do EF Core — representa a sessão com o banco de dados
     // BbDbContext é a implementação personalizada do projeto (Bb = Biblioteca)

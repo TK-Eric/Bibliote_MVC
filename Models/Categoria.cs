@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace bibliotec.Models
+namespace Bibliotec_MVC.Models
 {
     // Modelo que representa uma Categoria de livro no banco de dados
     // Exemplos de categorias: "Ficção Científica", "Romance", "Técnico", etc.

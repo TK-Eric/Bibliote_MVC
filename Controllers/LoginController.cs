@@ -1,9 +1,8 @@
-using bibliotec.Models;
-using bibliotec.Interfaces;
+using Bibliotec_MVC.Models;
+using Bibliotec_MVC.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using bibliotec.Models;
 
-namespace bibliotec.Controllers
+namespace Bibliotec_MVC.Controllers
 {
     
     public class LoginController : Controller
@@ -22,6 +21,22 @@ namespace bibliotec.Controllers
 
             return View();
         }
+
+
+[HttpPost]
+
+        public async  Task<IActionResult> Cadastro()
+        {
+            string? adminSessao = HttpContext.Session.GetString("Admin");
+            if (adminSessao != null || (adminSessao != "true" && adminSessao != "True"))
+            
+            {
+                return RedirectToAction ("index", "Login");
+            }
+            ViewBag.Admin = "Usuario ou Senha Inválidos";
+            return View("Index");       
+        }
+
 
         [HttpPost]
 

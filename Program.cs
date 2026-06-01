@@ -1,9 +1,7 @@
-using bibliotec.Contexts;                  // Importa o DbContext do projeto (BbDbContext)
-using bibliotec.Interfaces;
-using bibliotec.Repostories;
-using bibliotec.Services;
+using Bibliotec_MVC.Contexts;                  // Importa o DbContext do projeto (BbDbContext)
 using Bibliotec_MVC.Interfaces;
 using Bibliotec_MVC.Repostories;
+using Bibliotec_MVC.Services;
 using Microsoft.EntityFrameworkCore; // Importa os métodos do EF Core (UseSqlServer, etc.)
 
 // Cria o builder da aplicação, que é responsável por configurar e montar o app
